@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 '''
+EXAMPLE:
+
 Input: s = "abcabcbb"
 Output: 3
 Explanation: The answer is "abc", with the length of 3.
