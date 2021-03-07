@@ -8,7 +8,7 @@ Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 '''
 
 class Solution:
-    def twoSum(self, nums, target):
+    def twoSum(self, nums: list[int], target: int):
         di = {nums[i]:i for i in range(len(nums))}
         for i in range(len(nums)):
             if target - nums[i] in di.keys() and i!=di[target - nums[i]]:
